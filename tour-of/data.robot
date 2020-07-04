@@ -14,7 +14,7 @@ Get Dummy Invoice
     Randomize Invoice Id    ${invoice}
     [return]    ${invoice}
     
-Randomize Invoice Id
+                    Randomize Invoice Id
     [Arguments]    ${invoice}
     ${random_number}=  Generate Random Number
     Update Invoice Id   ${invoice}    ${random_number}
